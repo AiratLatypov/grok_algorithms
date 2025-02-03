@@ -4,3 +4,10 @@ def countdown(i):
         # базовый случай
         return
     countdown(i - 1)
+
+
+# функция факториала
+def fact(x):
+    if x == 1:
+        return 1
+    return x * fact(x - 1)
