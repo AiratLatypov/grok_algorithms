@@ -16,6 +16,7 @@ def binary_search(array: list, target: int) -> int | None:
 
 
 test_array = [1, 2, 5, 9, 10, 3, 7, 14, 11, 99]
+# sorted_array = [1, 2, 3, 5, 7, 9, 10, 11, 14, 99]
 
 print(binary_search(sorted(test_array), 9))  # 5
 print(binary_search(sorted(test_array), 99))  # 9
